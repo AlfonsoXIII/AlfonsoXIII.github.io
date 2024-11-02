@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Who am I? on Sergio Mancha</title>
-    <link>https://alfonsoxiii.github.io/</link>
-    <description>Recent content in Who am I? on Sergio Mancha</description>
+    <title>Personal Library on Sergio Mancha</title>
+    <link>https://alfonsoxiii.github.io/personal-library/</link>
+    <description>Recent content in Personal Library on Sergio Mancha</description>
     <generator>Hugo</generator>
     <language>en-uk</language>
-    <atom:link href="https://alfonsoxiii.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://alfonsoxiii.github.io/personal-library/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Personal Library</title>
       <link>https://alfonsoxiii.github.io/personal-library/one/</link>

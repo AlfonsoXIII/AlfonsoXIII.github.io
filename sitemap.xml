@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://alfonso-xiii.github.io/categories/</loc>
+    <loc>https://alfonsoxiii.github.io/categories/</loc>
   </url><url>
-    <loc>https://alfonso-xiii.github.io/</loc>
+    <loc>https://alfonsoxiii.github.io/personal-library/</loc>
   </url><url>
-    <loc>https://alfonso-xiii.github.io/tags/</loc>
+    <loc>https://alfonsoxiii.github.io/personal-library/one/</loc>
+  </url><url>
+    <loc>https://alfonsoxiii.github.io/projects/</loc>
+  </url><url>
+    <loc>https://alfonsoxiii.github.io/tags/</loc>
+  </url><url>
+    <loc>https://alfonsoxiii.github.io/</loc>
   </url>
 </urlset>
