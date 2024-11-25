@@ -21,8 +21,10 @@
 
 
   
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 
   
   <link href="https://alfonsoxiii.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Sergio Mancha" />
@@ -33,7 +35,7 @@
   <aside class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <a href="https://alfonsoxiii.github.io/"><h1>Sergio Mancha</h1></a>
+      <a href="https://alfonsoxiii.github.io/" class="site-title"><h1>Sergio Mancha</h1></a>
       <p class="lead">
        An (almost) electronics engineer, passionate for chess, electromagnetism and semiconductors. 
       </p>
@@ -41,10 +43,10 @@
 
     <nav>
       <ul class="sidebar-nav">
-        <li><a href="https://alfonsoxiii.github.io/">Home</a> </li>
-        <li><a href="https://alfonsoxiii.github.io//projects/">Projects</a></li>
-        <li><a href="https://alfonsoxiii.github.io//latex-showcase/">LaTeX Showcase</a></li>
-        <li><a href="https://alfonsoxiii.github.io//personal-library/">Personal Library</a></li>
+        <li><a href="https://alfonsoxiii.github.io/" class="side-bar-section  underline-active ">Home</a> </li>
+        <li><a href="https://alfonsoxiii.github.io/projects/" class="side-bar-section ">Projects</a></li>
+        <li><a href="https://alfonsoxiii.github.io/tex-showcase/" class="side-bar-section ">TeX Showcase</a></li>
+        
         
       </ul>
       <ul class="sidebar-nav right-sidebar">
@@ -63,45 +65,177 @@
   <p>Welcome to my portfolio! I&rsquo;m Sergio Mancha Cerezuela, an electronic engineering student at Polytechnic University of Catalonia (UPC).</p>
 <h2 id="education">Education</h2>
 <section>
-    <span><b>Polytechnic University of Catalonia (UPC)</b></span><span style="float: right;"><b>September 2022 –</b></span>
+    <span><b>Polytechnic University of Catalonia (UPC - ETSETB)</b></span><span style="float: right;"><b>September 2022 –</b></span>
     <br>
     <span style="text-align: justify; text-justify: inter-word;">Bachelor’s degree in Electronic Engineering and Telecommunications</span><span style="float: right;">Barcelona, Spain</span>
 </section>
 <br>
 <h2 id="relevant-coursework">Relevant Coursework</h2>
 <section>
-    <span><b>Analog Circuits</b></span>
-    <br>
-    <a>Reveal entire syllabus</a>
+    <span><b>Analog Circuits.</b></span> <span>An Operational Amplifier-based analog circuits subject, covering all the way from AC/DC limitations to voltage/current and current/voltage converters, feedback circuitry and stability analysis, oscillators, comparators and analog/digital and digital/analog converters.</span>
+    <br><br>
+    <button type="button" class="collapsible">Complete Syllabus</button>
+    <div class="collapsible-content" style="padding-top: 10px;">
+      <p><strong>Electric Signals Amplification and Analog Integrated Circuits</strong></p>
+<ul>
+<li>Amplification. Definition. Types. Equivalent circuits. Input and Output resistance, and load effects.</li>
+<li>Operational Amplifiers (opamps). Definition. Symbol. Equivalent circuits. Ideal model. Fundamental op amp configurations.</li>
+<li>Other IC amplifiactors. Transconductance op amp. Current realmimentation along with operational amplifiers.</li>
+</ul>
+<p><strong>Operational Amplifiers&rsquo; Limitations</strong></p>
+<ul>
+<li>DC limitations. In-Out characteristics, dynamic margin and working areas. Polarization currents. Offset voltage. CMRR. PSRR.</li>
+<li>Frequencial response and AC limitations. Transfer function. Bode diagrams. Gain and bandwidth product. Slew-rate.</li>
+</ul>
+<p><strong>Feedback</strong></p>
+<ul>
+<li>Feedback definition. Canonical representation. Canonical flow diagrams with feedback. Operational amplifiers and flow diagrams.</li>
+<li>Feedback circuits&rsquo; stability. Routh criterion. Root locus. Stability margins. Frequential compensation.</li>
+</ul>
+<p><strong>Electric Analog Functions</strong></p>
+<ul>
+<li>Lineal functions. I-V converters. V-I converters. Current amplificators. Differential amplificators. Instrumentation amplificators.</li>
+<li>Non-lineal functions. Voltage comparators. Comparators with Hysteresis cicle. Precision rectifiers. Signal limitators.</li>
+</ul>
+<p><strong>Signal Generators</strong></p>
+<ul>
+<li>Sinusoidal generators. Oscilation conditions. Start conditions and amplitude stabilization. Wien bridge oscilators. Quadrature oscillators.</li>
+<li>Astable generators. Monostables. 555 IC. Square-triangular signal generators.</li>
+</ul>
+<p><strong>Analog to Digital and Digital to Analog Converters</strong></p>
+<ul>
+<li>Connection between the analog and digital world.</li>
+<li>D/A converters. Specifications. D/A conversion techniques.</li>
+<li>A/D converters. Specification. Sampling and hold. A/D conversion techniques.</li>
+</ul>
+
+    </div> 
 </section>
+<br>
 <section>
-    <span><b>Digital Systems</b></span>
-    <br>
-    <a>Reveal entire syllabus</a>
+    <span><b>Digital Systems and Design.</b></span> <span>VHDL-driven subject, in which design and synthesis of digital circuitry is approached. Concurrent and sequential statements, finite-state machines, algorithmic machines, metastability and time analysis are covered.</span>
+    <br><br>
+    <button type="button" class="collapsible">Complete Syllabus</button>
+    <div class="collapsible-content" style="padding-top: 10px;">
+      <p><strong>Digital Electronic Systems Design</strong></p>
+<ul>
+<li>Design strategies.</li>
+<li>CPLDs, FPGAs&hellip;</li>
+<li>Prototyping tools.</li>
+<li>Hardware description languages (HDL). Synteshis limits, and description levels.</li>
+<li>Simulation. Time restrictions.</li>
+<li>Production tests, steps and recommendations.</li>
+</ul>
+<p><strong>Synthezising Circuits through VHDL</strong></p>
+<ul>
+<li>Fundamental characteristics. Packages and libraries.</li>
+<li>Functions and procedures.</li>
+<li>Interference between specific blocks.</li>
+<li>Generating and distributing clock specific signals.</li>
+<li>Arithmetic blocks.</li>
+<li>Memory blocks. Implementation of FIFO-like structures.</li>
+</ul>
+<p><strong>Designing Techniques</strong></p>
+<ul>
+<li>Finite state machines.</li>
+<li>Algorithmic machines.</li>
+<li>Data subsystem. Pipelining.</li>
+<li>Control subsystem.</li>
+<li>Microprogrammed subsystems.</li>
+<li>Approaching energy reduction problematics.</li>
+<li>Structures and standard tests.</li>
+<li>IP chores.</li>
+</ul>
+<p><strong>Designing Problematics</strong></p>
+<ul>
+<li>Digital circuitery temporising.</li>
+<li>Time analysis.</li>
+<li>Metastability.</li>
+<li>Spurious events.</li>
+<li>Sincronous vs asincronous.</li>
+<li>Frequency synthesis.</li>
+<li>Memory and periphreals interfacing.</li>
+</ul>
+
+    </div> 
 </section>
+<br>
 <section>
-    <span><b>Introduction to Semiconductor Devices</b></span>
-    <br>
-    <a>Reveal entire syllabus</a>
+    <span><b>Introduction to Semiconductor Devices.</b></span> <span>An introductory subject to the foundations of solid state electronic devices. Principles and fundamentals of carrier transport, PN junctions, Bipolar Junction Transistors and MOSFETs, as well as optoelectronic devices, are analyzed.</span>
+    <br><br>
+    <button type="button" class="collapsible">Complete Syllabus</button>
+    <div class="collapsible-content" style="padding-top: 10px;">
+      <p><strong>Semiconductor Fundamentals</strong></p>
+<ul>
+<li>Cristaline lattices and Miller indices.</li>
+<li>Atomic model.</li>
+<li>Energy bands.</li>
+<li>Current carriers. Electron-hole concept.</li>
+<li>Carrier concentration within a semiconductor.</li>
+<li>Drift and difussion current.</li>
+<li>Generation and recombination.</li>
+<li>Continuity equation.</li>
+</ul>
+<p><strong>PN Junctions</strong></p>
+<ul>
+<li>Equilibrium PN junctions. Band diagrams.</li>
+<li>Electrostatic analysis.</li>
+<li>Direct and inverse current.</li>
+<li>Dynamic behaviour and load control.</li>
+</ul>
+<p><strong>Bipolar Transistor</strong></p>
+<ul>
+<li>Transistor effect.</li>
+<li>Current - voltage characteristic.</li>
+<li>Ebers-Moll model.</li>
+<li>Small signal model.</li>
+<li>None-ideal effects.</li>
+</ul>
+<p><strong>MOSFET</strong></p>
+<ul>
+<li>Metal-Oxide-Semiconductor condensor.</li>
+<li>Ideal MOS stationary characterístics. Simple load control model.</li>
+<li>Small signal model.</li>
+</ul>
+<p><strong>Optoelectronics</strong></p>
+<ul>
+<li>Heterojunctions</li>
+<li>Light Emitting Diodes</li>
+<li>Lasers</li>
+<li>Photoreceptors</li>
+</ul>
+
+    </div> 
 </section>
-<section>
-    <span><b>Quantum Physics</b></span>
-    <br>
-    <a>Reveal entire syllabus</a>
-</section>
+<br>
 <h2 id="technical-skills">Technical Skills</h2>
-<p><strong>Document formatting</strong>. Wide knowledge and familiarity with the typesetting system <em>TeX</em>, as well as <em>LaTeX</em>, formatting .</p>
-<p><strong>Programming languages.</strong> Experience on signal and data processing using Python.</p>
+<p><strong>Document formatting</strong>. Wide knowledge and familiarity with the typesetting system <em>TeX</em>, as well as <em>LaTeX</em>, formatting various types of documents ranging from formal laboratory papers to book-like files.</p>
+<p><strong>Programming languages.</strong> Experience on signal and data processing using Python. Practice working on embedded systems (Microchip MCUs) with C, and C++ developing small windows desktop aplications. HTML/CSS and Javascript/Typescript.</p>
+<p><strong>Development environments.</strong> VS Code, Eclipse and MPLAB</p>
+<p><strong>Mathematical software.</strong> Matlab and Maple.</p>
+<p><strong>Electronic simulators and tools.</strong> Practice simulating analog electronics using Cadence&rsquo;s PSpice, as well as high frequency circuitry using QUCS. Experience designing PCBs working with KiCad. Synthezisis and simulation of digital circuits for Altera (Intel) and Xilinx&rsquo;s (AMD) FPGAs through Quartus and Vivado, respectively. Simulation of 2-dimensional semiconductor devices using PC1D.</p>
+<section>
+    <span><b>Spanish Language</b></span><span style="float: right;"><b></b></span>
+    <br>
+    <span style="text-align: justify; text-justify: inter-word;">Native</span><span style="float: right;"></span>
+</section>
+<br>
+<section>
+    <span><b>Catalan Language</b></span><span style="float: right;"><b></b></span>
+    <br>
+    <span style="text-align: justify; text-justify: inter-word;">Native</span><span style="float: right;"></span>
+</section>
+<br>
 <section>
     <span><b>Cambridge English Certificate</b></span><span style="float: right;"><b>July 2023</b></span>
     <br>
-    <span style="text-align: justify; text-justify: inter-word;">C1 Advanced</span><span style="float: right;">Mataró, Spain</span>
+    <span style="text-align: justify; text-justify: inter-word;">C1 Advanced</span><span style="float: right;">Spain</span>
 </section>
 <br>
 <section>
     <span><b>Test of Russian as a Foreign Language (TORFL)</b></span><span style="float: right;"><b>September 2024</b></span>
     <br>
-    <span style="text-align: justify; text-justify: inter-word;">A1 Elementary</span><span style="float: right;">Barcelona, Spain</span>
+    <span style="text-align: justify; text-justify: inter-word;">B1 First Certification</span><span style="float: right;">Spain</span>
 </section>
 <br>
 <h2 id="background">Background</h2>
@@ -116,6 +250,7 @@ I have worked as a private tutor for a whole year, tutoring kids who were finish
 </article>
 
 
+<script src="https://alfonsoxiii.github.io/js/collapsible.js"></script>
     </main>
 
     
