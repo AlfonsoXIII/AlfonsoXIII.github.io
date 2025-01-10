@@ -2,24 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://alfonsoxiii.github.io/projects/christmas-tree/</loc>
+    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2024-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://alfonsoxiii.github.io/projects/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://alfonsoxiii.github.io/</loc>
-    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://alfonsoxiii.github.io/projects/ultrasonic-based-distance-detector/</loc>
+    <loc>http://localhost:1313/projects/ultrasonic-based-distance-detector/</loc>
     <lastmod>2024-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://alfonsoxiii.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://alfonsoxiii.github.io/tex-showcase/</loc>
+    <loc>http://localhost:1313/tex-showcase/</loc>
   </url><url>
-    <loc>https://alfonsoxiii.github.io/personal-library/</loc>
+    <loc>http://localhost:1313/personal-library/</loc>
   </url><url>
-    <loc>https://alfonsoxiii.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
