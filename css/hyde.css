@@ -280,3 +280,23 @@ a.sidebar-nav-item:focus {
 .collapsible {
   font-weight: 600;
 }
+
+.skills-icon-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+	grid-gap: 2px;
+	padding: 20px;
+	padding-left: 0px;
+}
+
+.skills-icon-grid svg {
+	padding-right: 5%;
+	margin-right: 5%;
+	margin-bottom: 35px;
+}
+
+.skills-icon-grid img {
+	padding-right: 5%;
+	margin-right: 5%;
+	margin-bottom: 35px;
+}
